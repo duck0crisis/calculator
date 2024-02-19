@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(0, 61, 61);
+}
+.boss {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 8px solid black;
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color: darkslategrey;
+    width: 700px;
+    height: 900px;
+}
+.result {
+    position: relative;
+    left: 7%;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgb(48, 57, 66);
+    width: 600px;
+    height: 100px;
+}
+.result-text {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+}
+.type-field {
+    position: relative;
+    left: 7%;
+    background-color: rgb(48, 57, 66);
+    border-radius: 15px;
+    width: 600px;
+    height: 600px;
+    margin-top: 10px;
+}
+.numbers {
+    background-color: dimgray;
+    position: absolute;
+    bottom: 0px;
+    width: 480px;
+    height: 600px;
+    border-radius: 20px;   
+}
+.number {
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    border-radius: 100%;
+    font-size: 500%;
+    position: relative;
+    left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.zero {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(194, 134, 146);
+    border-radius: 100%;
+    position: relative;
+    left: 34%;
+    font-size: 500%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signs {
+    position: absolute;
+    left: 80%;
+    background-color: lightcoral;
+    width: 120px;
+    height: 600px;
+    border-radius: 20px;
+    
+}
+.sign {
+    height: 120px;
+    width: 120px;
+    background-color: darkgray;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    font-size: 600%;
+}
+.equals {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(128, 135, 240);
+    width: 700px;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
